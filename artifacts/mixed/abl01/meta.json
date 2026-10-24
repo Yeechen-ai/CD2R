@@ -1,0 +1,15 @@
+{
+  "dataset": "mixed",
+  "variant": "abl01",
+  "emb_dim": 64,
+  "n_layers": 2,
+  "seed": 42,
+  "anonymized": true,
+  "single_channel": false,
+  "causal_alpha": 0.5,
+  "illness_boost_gamma": 4.0,
+  "primary_illness_boost": true,
+  "report_metrics": "causal",
+  "qi": 0,
+  "ablation": "no_align_loss"
+}
